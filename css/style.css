@@ -45,3 +45,46 @@ a {
     margin: 0 auto;
     padding: 0 16px;
 }
+
+.section {
+    padding: 64px 0;
+}
+
+.section-title {
+    display: inline-block;
+    margin-bottom: 32px;
+    font-size: 28px;
+    color: var(--color-main);
+    border-bottom: 2px solid var(--color-main);
+}
+
+.header {
+    padding: 16px 0;
+    background-color: var(--color-white);
+    border-bottom: 1px solid #e2e2e2;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.header-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-list {
+    display: flex;
+    gap: 24px;
+}
+
+.nav-list a {
+    color: var(--color-text);
+    text-decoration: none;
+}
+
+.nav-list a:hover {
+    color: var(--color-main);
+}
