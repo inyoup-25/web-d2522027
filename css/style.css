@@ -88,3 +88,33 @@ a {
 .nav-list a:hover {
     color: var(--color-main);
 }
+
+.about-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.about {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.about-text {
+    flex: 1;
+}
+
+.about-name {
+    margin-bottom: 8px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.about-name span {
+    margin-left: 12px;
+    font-size: 14px;
+    font-weight: normal;
+    color: #888;
+}
